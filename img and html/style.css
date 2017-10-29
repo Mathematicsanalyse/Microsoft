@@ -1,0 +1,128 @@
+*{margin:0;padding:0;}
+body{background: white;}
+#menu	   
+{
+	width:100px;
+	height:60px;
+	line-height:50px;
+	text-align:center;
+	font-size:20px;
+	background:white;
+}
+#menu:hover #menu_window1
+		{
+			display: block;
+		}
+#menu_window1
+		{
+			display: none;
+			position: absolute;
+			left:80px;
+			top:55px;
+			background:white;
+			height:400px;
+			width:300px;
+		}
+.menu_window2{width:80px;
+			height:60px;
+			line-height:50px;
+			text-align:center;
+			font-size:20px;
+			background:white;}
+
+
+.menu_window2:hover .menu_window3
+        {   
+        	display:block;
+        }	
+.menu_window3
+        {
+			display: none;
+			position: absolute;
+			left:200px;
+			top:55px;
+			background:white;
+			height:400px;
+			width:300px;
+		}
+table
+{
+	width:1200px;
+	font-size:15px;
+	line-height:30px;
+	font-family:'Segoe UI', SegoeUI, 'Microsoft YaHei', 微软雅黑, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+}
+
+div
+{
+	display:inline-block;
+	text-align:center;
+	margin:15px;
+	font-family:'Segoe UI', SegoeUI, 'Microsoft YaHei', 微软雅黑, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.clear
+{
+	clear:both;
+}
+.footer div
+{
+	float:left;
+	font-size:11px;
+}
+form{float:right;}
+.menu_window4
+		{				
+			width:80px;
+			height:60px;
+			line-height:50px;
+			text-align:center;
+			font-size:20px;
+			background:white;
+		}
+
+
+.menu_window4:hover .menu_window5
+        {   
+        	display:block;
+        }	
+.menu_window5
+        {
+			display: none;
+			position: absolute;
+			left:200px;
+			top:55px;
+			background:white;
+			height:400px;
+			width:300px;
+		}
+		.menu_window4{width:80px;
+			height:60px;
+			line-height:50px;
+			text-align:center;
+			font-size:20px;
+			background:white;}
+
+
+.menu_window6{width:80px;
+			height:60px;
+			line-height:50px;
+			text-align:center;
+			font-size:20px;
+			background:white;}
+
+
+.menu_window6:hover .menu_window7
+        {   
+        	display:block;
+        }	
+.menu_window7
+        {
+			display: none;
+			
+			left:70px;
+			top:160px;
+			background:white;
+			height:90px;
+			width:600px;
+		}
